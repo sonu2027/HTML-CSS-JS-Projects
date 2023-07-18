@@ -4,6 +4,16 @@
 }
 body{
     font-family: sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#container{
+    background-color: rgb(116, 144, 231);
+    width: 40rem;
+    padding: 2% 2%;
+    border-radius: 1rem;
+    margin-top: 2rem;
 }
 #button{
     display: flex;
@@ -14,8 +24,9 @@ body{
 button{
     padding: 0.5% 2%;
     border-radius: 8px;
-    border-color: transparent;
-    border: 1px solid rgb(183, 183, 183);
+    /* border-color: transparent; */
+    /* border: 1px solid rgb(183, 183, 183); */
+    border: 1px solid rgb(11, 16, 31);
 }
 button:hover{
    cursor: pointer;
@@ -36,7 +47,7 @@ input{
     padding: 0.5% 0;
 }
 p{
-    border: 2px solid rgb(183, 183, 183);
+    border: 2px solid rgb(11, 16, 31);
     width: 18rem;
     line-height: 4rem;
     text-align: center;
@@ -52,7 +63,7 @@ label{
     font-size: 1.1rem;
     font-weight: 550;
 }
-@media screen and (max-width:630px){
+@media screen and (max-width:670px){
     html{
         font-size: 90%;
     }
@@ -60,7 +71,7 @@ label{
         padding: 0.3% 0;
     }
 }
-@media screen and (max-width:580px){
+@media screen and (max-width:600px){
     html{
         font-size: 80%;
     }
@@ -68,7 +79,7 @@ label{
         padding: 0.3% 0;
     }
 }
-@media screen and (max-width:520px){
+@media screen and (max-width:540px){
     html{
         font-size: 60%;
     }
