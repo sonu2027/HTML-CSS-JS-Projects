@@ -1,0 +1,124 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Ubuntu', sans-serif;
+}
+html{
+    font-size: 62.5%;
+    background-color: #0f0f10;
+    width: 100%;
+}
+body{
+    height: 150vh;
+}
+nav{
+    background-color: #0f0f10;
+    height: 14vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    column-gap: 25rem;
+    align-items: center;
+    box-shadow: 0 0 5px #BC8F8F;
+    position: sticky;
+    top: 0px;
+}
+nav ul li{
+    list-style: none;
+}
+nav ul li a{
+    text-decoration: none;
+    font-size: 2rem;
+    color: #F0F8FF;
+}
+.portfolio{
+    display: flex;
+}
+.portfolio h1{
+    font-size: 5rem;
+}
+nav ul{
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+}
+.port{
+    color: #F0F8FF;
+}
+.folio{
+    color: #9ACD32;
+}
+.bar{
+    display: none;
+}
+
+main{
+    /* border: 1px solid red; */
+    height: 60vh;
+}
+main ul li a{
+    color: white;
+    font-size: 2rem;
+    text-decoration: none;
+}
+main ul li{
+    list-style: none;
+}
+main ul{
+    height: 50vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 10rem;
+}
+@media screen and (max-width: 725px){
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: 'Ubuntu', sans-serif;
+    }
+    html{
+        /* border: 1px solid red; */
+        font-size: 50%;
+        background-color: #0f0f10;
+        width: 100%;
+    }
+    nav{
+        height: 9rem;
+        width: 100%;
+    }
+    li{
+        list-style: none;
+    }
+    li a{
+        text-decoration: none;
+        font-size: 2rem;
+        color: #F0F8FF;
+    }
+    .portfolio{
+        position: absolute;
+        right: 2rem;
+        display: flex;
+        font-size: 4rem;
+    }
+    .portfolio h1{
+        font-size: 5rem;
+    }
+    nav ul{
+        display: none;
+    }
+    .port{
+        color: #F0F8FF;
+    }
+    .folio{
+        color: #9ACD32;
+    }
+    .bar{
+        display: block;
+        position: absolute;
+        left: 4rem;
+    }
+}
